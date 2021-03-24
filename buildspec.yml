@@ -2,7 +2,7 @@ version: 0.2
 
 env:
 	variables:
-		REACT_APP_SERVER_URL: "http://cloudapi-env.eba-3hvf9zeb.eu-west-1.elasticbeanstalk.com/"
+		REACT_APP_SERVER_URL: "http://cloudapi-env.eba-3hvf9zeb.eu-west-1.elasticbeanstalk.com"
 
 phases:
   install:
