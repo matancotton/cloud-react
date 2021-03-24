@@ -1,0 +1,15 @@
+.upload-file {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+
+    .upload-input {
+        background: transparent;
+        height: 5rem;
+    }
+
+    button {
+        flex-shrink: 1;
+        align-self: flex-start;
+    }
+}

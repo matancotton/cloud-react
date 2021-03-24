@@ -1,0 +1,16 @@
+.button {
+    background: $medium;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba($color: $dark, $alpha: 0.5);
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+
+    &:active {
+        background: $light;
+        color: $very-dark;
+        box-shadow: none;
+    }
+}
